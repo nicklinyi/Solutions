@@ -1,4 +1,6 @@
 ## Git 问题汇总
+----
+[<< 回到根目录]: ./README.md
 
 ### 1.github Contributions Calendar 没有显示自己的 commit 记录。
 参考: <https://www.zhihu.com/question/21371544>
@@ -17,3 +19,4 @@
 
 注意这儿是`id_rsa`,而不是`id_rsa.pub`
 
+[<< 回到根目录]: ./README.md
