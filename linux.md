@@ -1,6 +1,6 @@
-** Linux 问题汇总
+## Linux 问题汇总
 
-***1.使用wget批量下载文件
+### 1.使用wget批量下载文件
 参考: <http://tomrose.iteye.com/blog/1055640>
 
 	wget -r http://place.your.url/here
