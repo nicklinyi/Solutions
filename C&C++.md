@@ -17,15 +17,14 @@ C/C++ 编程问题汇总
 
 一个简单的例子如下：
   
-  char str[100];
-  char str2[20];
-  int i;
-  FILE *fp;
-  for(i=0; i<100; ++i){
-    strcpy(str,"time");
-    itoa(i+1,str2,10);
-    strcat(str,str2);
-    strcat(str,".txt);
-    fp = fopen(str,"w+");
-  }
-  
+         char str[100];
+         char str2[20];
+         int i;
+         FILE *fp;
+         for(i=0; i<100; ++i){
+           strcpy(str,"time");
+           itoa(i+1,str2,10);
+           strcat(str,str2);
+           strcat(str,".txt);
+           fp = fopen(str,"w+");
+         }
