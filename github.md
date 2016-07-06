@@ -1,6 +1,6 @@
-## Git 问题汇总
+Git 问题汇总
 ----
-[<< 回到根目录]: ./README.md
+[<< 回到根目录]
 
 ### 1.github Contributions Calendar 没有显示自己的 commit 记录。
 参考: <https://www.zhihu.com/question/21371544>
