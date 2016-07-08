@@ -3,7 +3,7 @@ Windows 相关问题汇总
 [回到根目录](./README.md)
 
 ##1. Windows共享某一文件夹(Windows SMB)
-参考：
+参考：[1][2][3]
 [1]:http://bbs.imp3.net/thread-10488956-1-1.html
 [2]:http://jingyan.baidu.com/article/7f766dafbc1af24101e1d012.html
 [3]:http://bbs.le.com/thread-358647-1.html
