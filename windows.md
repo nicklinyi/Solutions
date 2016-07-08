@@ -3,6 +3,11 @@ Windows 相关问题汇总
 [回到根目录](./README.md)
 
 ##1. Windows共享某一文件夹(Windows SMB)
+参考：
+[1]:http://bbs.imp3.net/thread-10488956-1-1.html
+[2]:http://jingyan.baidu.com/article/7f766dafbc1af24101e1d012.html
+[3]:http://bbs.le.com/thread-358647-1.html
+
 - 首先找到要共享的文件夹，然后`右键`该文件夹，弹出一个新窗口，为`XX属性`；
 - 选择导航条的第二个`共享`，可以发现有两个按钮：`共享(S)...`和`高级共享(D)...`；
 - 选择第一个按钮`共享(S)...`，弹出一个新的对话框，然后在`添加(A)`左侧有个下拉选项；
