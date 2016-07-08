@@ -8,5 +8,6 @@ Solutions
 2.  [Linux 相关问题](./linux.md)
 3.  [C/C++ 编程问题](./C&C++.md)
 4.  [Windows 相关问题](./windows.md)
+5.  [Latex 相关问题](./latex.md)
 
 ====
