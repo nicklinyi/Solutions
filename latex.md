@@ -34,7 +34,9 @@ Latex 问题汇总
    ={}& \int e^{ik_{x}x}P(t,k_{x})dk_{x} \notag
    \end{align*}
 ```
+参考资料：
 
+\[1\]:《LaTeX入门》刘海洋，265页
 
 
 
