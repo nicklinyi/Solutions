@@ -10,8 +10,8 @@ Latex 问题汇总
 - ![equation](http://latex.codecogs.com/gif.latex?\\iiint)  三重积分： `$\iiint$`
 - ![equation](http://latex.codecogs.com/gif.latex?\\idotsint)  多重积分： `$\idotsint$`
 参考资料：
-[1]:《LaTeX入门》刘海洋，245页
-[2]:[博文](http://trumanliu.com/github-markdown-math-formulas/)
+\[1\]:《LaTeX入门》刘海洋，245页
+\[2\]:[博文](http://trumanliu.com/github-markdown-math-formulas/)
 
 
 
