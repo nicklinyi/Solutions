@@ -5,5 +5,5 @@ Latex 问题汇总
 链接：[http://blog.sina.com.cn/s/blog_4ddef8f80100iwwv.html](http://blog.sina.com.cn/s/blog_4ddef8f80100iwwv.html)
 
 ##2. 
-![](http://latex.codecogs.com/gif.latex?\alpha_{A}+\beta)
+![](http://latex.codecogs.com/gif.latex?\alpha_A+\beta)
 
