@@ -19,11 +19,20 @@ Latex 问题汇总
 ##3. 公式关系符对齐
 
 例子：
+
 ![equation](http://latex.codecogs.com/gif.latex?\\begin{align*}
    & p(t,x) \\notag \\\\
 ={}& \\int e^{ik_{x}x}[\\int e^{-i\\omega t}P(\\omega,k_{x})d\\omega]dk_{x} \\notag \\\\
 ={}& \\int e^{ik_{x}x}P(t,k_{x})dk_{x} \\notag
 \\end{align*}) 
+
+代码：
+
+   \begin{align*}
+      & p(t,x) \notag \\
+   ={}& \int e^{ik_{x}x}[\int e^{-i\omega t}P(\omega,k_{x})d\omega]dk_{x} \notag \\
+   ={}& \int e^{ik_{x}x}P(t,k_{x})dk_{x} \notag
+   \end{align*}
 
 
 
