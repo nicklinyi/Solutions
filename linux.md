@@ -27,9 +27,10 @@ Linux 问题汇总
 	
 	sudo mount.cifs //WindowsPC/Share /place/where/to/put/your/share/fold -o user=your-WindowsPC-name
 	
-注意： `//WindowsPC/Share`中`WindowsPC`为IP地址，`Share`为WindowsPC共享的文件夹，在此例中为`paper`。
-       `/place/where/to/put/your/share/fold`是你在Linux上挂载`paper`的目录，即刚才创建的文件夹`~/Desktop/Windows-Share`，
-       `user=your-WindowsPC-name`为你的WindowsPC的用户名，如果你的用户名为`Durant`，那么这里就是`user=Durant`
+注意：
+- `//WindowsPC/Share`中`WindowsPC`为IP地址，`Share`为WindowsPC共享的文件夹，在此例中为`paper`。
+- `/place/where/to/put/your/share/fold`是你在Linux上挂载`paper`的目录，即刚才创建的文件夹`~/Desktop/Windows-Share`，
+- `user=your-WindowsPC-name`为你的WindowsPC的用户名，如果你的用户名为`Durant`，那么这里就是`user=Durant`
        
 输完这个代码后，可以在`~/Desktop/Windows-Share`下看到WindowsPC端的共享的`paper`目录中的文件。
 
