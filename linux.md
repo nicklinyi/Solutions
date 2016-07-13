@@ -12,7 +12,8 @@ Linux 问题汇总
 ### 2.访问Windows的共享文件夹
 参考: <http://www.howtogeek.com/176471/how-to-share-files-between-windows-and-linux/>
 
-在Windows下建立共享文件夹见。
+在Windows下建立共享文件夹见[Windows共享某一文件夹(Windows SMB)](../windows.md)。
+
 现在介绍，如何在Linux下访问Windows的共享文件夹。
 首先，对于Debian/Ubuntu系统需要安装`cifs-utils`以及`smbclient`，命令如下
 	
