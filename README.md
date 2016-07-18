@@ -10,5 +10,6 @@ Solutions
 4.  [Windows 相关问题](./windows.md)
 5.  [Latex 相关问题](./latex.md)
 6.  [Madagascar 参考手册](./Madagascar.md)
+7.  [VIM 相关问题](./vim.md)
 
 ====
