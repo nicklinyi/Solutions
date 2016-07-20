@@ -35,5 +35,26 @@ Git 问题汇总
 	* master  7a98805 Merge branch 'iss53'
       testing 782fd34 add scott to the author list in the readmes
 
+### 4.`git push -u origin master`出错
+参考：<http://stackoverflow.com/questions/15637507/fatal-origin-does-not-appear-to-be-a-git-repository>
+
+出错情况为
+
+	$ git push -u orgin master
+	fatal: 'orgin' does not appear to be a git repository
+	fatal: Could not read from remote repository.
+
+	Please make sure you have the correct access rights
+	and the repository exists.
+
+解决方案：
+首先，查看`git remote -v`是否显示`orgin`,正确的结果如下
+
+	$ git remote -v
+	origin  git@github.com:nick/Solutions.git (fetch)
+	origin  git@github.com:nick/Solutions.git (push)
+
+如果正确的话，修改命令`git push -u origin master`为`git push  origin master`，即可成功上传至`repo`。
+
 
 [<< 回到根目录]: ./README.md
