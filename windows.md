@@ -25,4 +25,6 @@ Windows 相关问题汇总
 `command`的键值设为执行该命令时所用的可执行程序的绝对路径，并在其后加`%1`即可。
 
 ##3. 怎么打出箭头符号（非LaTeX环境）
-在输入法的小面板上右键→软键盘→特殊符号→选择需要的箭头	
+参考：[http://jingyan.baidu.com/article/ca2d939dd6f0b6eb6c31ce0a.html](http://jingyan.baidu.com/article/ca2d939dd6f0b6eb6c31ce0a.html)
+
+	在输入法的小面板上右键→软键盘→特殊符号→选择需要的箭头	
