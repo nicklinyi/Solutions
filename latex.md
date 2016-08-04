@@ -49,9 +49,9 @@ Latex 问题汇总
 	\end{gather}
 最终的显示如下：
 ![equation](http://latex.codecogs.com/gif.latex?\\begin{gather}
-	R_{\\infty}=1-\\frac{X^2}{1+R_{\\infty}} \\notag \\\\
-	R_{\\infty}(1+R_{\\infty})=1+R_{\\infty}-X^2 \\notag \\\\
-	R^2=1-X^2
+ R_{\\infty}=1-\\frac{X^2}{1+R_{\\infty}} \\notag \\\\
+ R_{\\infty}(1+R_{\\infty})=1+R_{\\infty}-X^2 \\notag \\\\
+ R^2=1-X^2
 \\end{gather}) 
 
 ##5. 注意事项
