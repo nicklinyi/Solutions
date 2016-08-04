@@ -48,11 +48,12 @@ Latex 问题汇总
 	R^2=1-X^2
 	\end{gather}
 最终的显示如下：
-![equation](http://latex.codecogs.com/gif.latex?\\begin{gather}
+
+![equation](http://latex.codecogs.com/gif.latex?\\begin{gather*}
  R_{\\infty}=1-\\frac{X^2}{1+R_{\\infty}} \\notag \\\\
  R_{\\infty}(1+R_{\\infty})=1+R_{\\infty}-X^2 \\notag \\\\
  R^2=1-X^2
-\\end{gather}) 
+\\end{gather*}) 
 
 ##5. 注意事项
 在表格中，`\label`语句应放在表格语句范围内靠后的位置，不然`\ref`的时候会找不到对应的`label`。一般的形式为：
