@@ -9,7 +9,7 @@ Solutions
 3.  [C/C++ 编程问题](./C&C++.md)
 4.  [Windows 相关问题](./windows.md)
 5.  [Latex 相关问题](./latex.md)
-6.  [Markdown 相关问题](./markdown/md)
+6.  [Markdown 相关问题](./markdown.md)
 7.  [Madagascar 参考手册](./Madagascar.md)
 8.  [VIM 相关问题](./vim.md)
 9.  [快捷键相关问题](./shortcut.md)
