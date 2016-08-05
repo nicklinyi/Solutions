@@ -48,7 +48,9 @@ Latex 问题汇总
 	R^2=1-X^2
 	\end{gather}
 最终的显示如下：
+
 ![](http://i.imgur.com/N7Exn4B.png)
+
 参考资料：
 \[1\]:《LaTeX入门》刘海洋，264页
 
