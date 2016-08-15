@@ -54,7 +54,33 @@ Latex 问题汇总
 参考资料：
 \[1\]:《LaTeX入门》刘海洋，264页
 
-##5. 注意事项
+## 7. 代码如何添加标题和标签，以便于其它地方可以进行引用？
+可采用`minted`宏包，示例代码如下
+
+```
+
+	\documentclass[a4paper]{scrartcl}
+	\usepackage{minted}
+	\begin{document}
+    	\begin{listing}[H]
+        	\caption{This is below the code.}
+        	\inputminted{py}{myfile.py}
+        	\label{lst:the-code}
+    	\end{listing}
+	\end{document}
+
+
+```
+
+显示如下:
+![](http://i.imgur.com/ad5eyYJ.png)
+参考资料：
+
+\[1\]. [http://tex.stackexchange.com/questions/12428/code-spanning-over-two-pages-with-minted-inside-listing-with-caption/53540#53540](http://tex.stackexchange.com/questions/12428/code-spanning-over-two-pages-with-minted-inside-listing-with-caption/53540#53540)
+\[2\]. [http://tex.stackexchange.com/questions/57353/how-to-get-caption-above-listing-with-minted](http://tex.stackexchange.com/questions/57353/how-to-get-caption-above-listing-with-minted)
+
+
+##6. 注意事项
 在表格中，`\label`语句应放在表格语句范围内靠后的位置，不然`\ref`的时候会找不到对应的`label`。一般的形式为：
 
 	\begin{table}
@@ -64,4 +90,5 @@ Latex 问题汇总
 	\end{table}
 
 此例中，如果将`\label`放置在`\caption`前面的话会出现上述问题。
+
 
