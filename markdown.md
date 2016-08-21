@@ -18,3 +18,8 @@ Markdown 问题汇总
 	...
 	</div>
 参考：[https://www.zhihu.com/question/23378396](https://www.zhihu.com/question/23378396)
+
+##2. Markdown表格中怎么插入逻辑或符号｜？
+`%#124;`
+也就是Vertical bar的HTML实体。
+但不保证所有解释器能正确识别。

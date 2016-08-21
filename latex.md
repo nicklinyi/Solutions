@@ -24,7 +24,7 @@ Latex 问题汇总
    & p(t,x) \\notag \\\\
 ={}& \\int e^{ik_{x}x}[\\int e^{-i\\omega t}P(\\omega,k_{x})d\\omega]dk_{x} \\notag \\\\
 ={}& \\int e^{ik_{x}x}P(t,k_{x})dk_{x} \\notag
-\\end{align*}) 
+\\end{align*})
 
 代码：
 ```
@@ -81,9 +81,9 @@ Latex 问题汇总
 
 ## 6. 字符对应表
 
-| 符号       | tex           | 
-| ------------- |:-------------:| 
-| \|     | \mid | 
+| 符号       | tex           |
+| ------------- |:-------------:|
+| &#124;    | \mid | 
 
 
 
@@ -98,5 +98,3 @@ Latex 问题汇总
 	\end{table}
 
 此例中，如果将`\label`放置在`\caption`前面的话会出现上述问题。
-
-
