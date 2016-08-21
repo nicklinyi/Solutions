@@ -76,14 +76,14 @@ Latex 问题汇总
 ![](http://i.imgur.com/ad5eyYJ.png)
 参考资料：
 
-\[1\]. [http://tex.stackexchange.com/questions/12428/code-spanning-over-two-pages-with-minted-inside-listing-with-caption/53540#53540](http://tex.stackexchange.com/questions/12428/code-spanning-over-two-pages-with-minted-inside-listing-with-caption/53540#53540)
+\[1\]. [http://tex.stackexchange.com/questions/12428/code-spanning-over-two-pages-with-minted-inside-listing-with-caption/53540#53540](http://tex.stackexchange.com/questions/12428/code-spanning-over-two-pages-with-minted-inside-listing-with-caption/53540#53540)<br>
 \[2\]. [http://tex.stackexchange.com/questions/57353/how-to-get-caption-above-listing-with-minted](http://tex.stackexchange.com/questions/57353/how-to-get-caption-above-listing-with-minted)
 
 ## 6. 字符对应表
 
 | 符号       | tex           |
 | ------------- |:-------------:|
-| &#124;    | \mid | 
+| &#124;    | \mid |
 
 
 
