@@ -54,7 +54,7 @@ Latex 问题汇总
 参考资料：
 \[1\]:《LaTeX入门》刘海洋，264页
 
-## 7. 代码如何添加标题和标签，以便于其它地方可以进行引用？
+## 5. 代码如何添加标题和标签，以便于其它地方可以进行引用？
 可采用`minted`宏包，示例代码如下
 
 ```
@@ -79,8 +79,17 @@ Latex 问题汇总
 \[1\]. [http://tex.stackexchange.com/questions/12428/code-spanning-over-two-pages-with-minted-inside-listing-with-caption/53540#53540](http://tex.stackexchange.com/questions/12428/code-spanning-over-two-pages-with-minted-inside-listing-with-caption/53540#53540)
 \[2\]. [http://tex.stackexchange.com/questions/57353/how-to-get-caption-above-listing-with-minted](http://tex.stackexchange.com/questions/57353/how-to-get-caption-above-listing-with-minted)
 
+## 6. 字符对应表
 
-##6. 注意事项
+| 符号       | tex           | 
+| ------------- |:-------------:| 
+| col 3 is      | right-aligned | 
+| col 2 is      | centered      | 
+| zebra stripes | are neat      |  
+
+
+
+##7. 注意事项
 在表格中，`\label`语句应放在表格语句范围内靠后的位置，不然`\ref`的时候会找不到对应的`label`。一般的形式为：
 
 	\begin{table}
