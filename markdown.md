@@ -23,3 +23,8 @@ Markdown 问题汇总
 `%#124;`
 也就是Vertical bar的HTML实体。
 但不保证所有解释器能正确识别。
+
+参考：[https://www.zhihu.com/question/30409784](https://www.zhihu.com/question/30409784)
+
+##3. Markdown如何换行？
+在该行行末输入`<br>`
