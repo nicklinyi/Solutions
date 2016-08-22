@@ -55,7 +55,7 @@ Latex 问题汇总
 \[1\]:《LaTeX入门》刘海洋，264页
 
 ## 5. 多行公式，比如两行，在两行的中间编号，只编一个。
-```
+```latex
 \begin{equation}
 \begin{split}
 P(t,x,z) &= P'[t'(t,x,z),x'(t,x,z),z'(t,x,z)]\\
