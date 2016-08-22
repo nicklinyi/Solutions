@@ -54,7 +54,19 @@ Latex 问题汇总
 参考资料：
 \[1\]:《LaTeX入门》刘海洋，264页
 
-## 5. 代码如何添加标题和标签，以便于其它地方可以进行引用？
+## 5. 多行公式，比如两行，在两行的中间编号，只编一个。
+```
+\begin{equation}
+\begin{split}
+P(t,x,z) &= P'[t'(t,x,z),x'(t,x,z),z'(t,x,z)]\\
+P(t,x,z) &= P'(t',x',z')
+\end{split}
+\label{eq:1}
+\end{equation}
+```
+![](http://i.imgur.com/NDQ4lu.png)
+
+## 6. 代码如何添加标题和标签，以便于其它地方可以进行引用？
 可采用`minted`宏包，示例代码如下
 
 ```
@@ -79,7 +91,7 @@ Latex 问题汇总
 \[1\]. [http://tex.stackexchange.com/questions/12428/code-spanning-over-two-pages-with-minted-inside-listing-with-caption/53540#53540](http://tex.stackexchange.com/questions/12428/code-spanning-over-two-pages-with-minted-inside-listing-with-caption/53540#53540)<br>
 \[2\]. [http://tex.stackexchange.com/questions/57353/how-to-get-caption-above-listing-with-minted](http://tex.stackexchange.com/questions/57353/how-to-get-caption-above-listing-with-minted)
 
-## 6. 字符对应表
+## 7. 字符对应表
 
 | 符号       | tex           |
 | ------------- |:-------------:|
@@ -88,7 +100,10 @@ Latex 问题汇总
 
 
 
-##7. 注意事项
+
+
+
+## 8. 注意事项
 在表格中，`\label`语句应放在表格语句范围内靠后的位置，不然`\ref`的时候会找不到对应的`label`。一般的形式为：
 
 	\begin{table}
