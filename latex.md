@@ -41,12 +41,13 @@ Latex 问题汇总
 ##4. 多行公式，前几行不标记，最后一行标记
 对于这种情况，可采用`gather`环境
 例如:
-
-	\begin{gather}
-	R_{\infty}=1-\frac{X^2}{1+R_{\infty}} \notag \\
-	R_{\infty}(1+R_{\infty})=1+R_{\infty}-X^2 \notag \\
-	R^2=1-X^2
-	\end{gather}
+```latex
+\begin{gather}
+R_{\infty}=1-\frac{X^2}{1+R_{\infty}} \notag \\
+R_{\infty}(1+R_{\infty})=1+R_{\infty}-X^2 \notag \\
+R^2=1-X^2
+\end{gather}
+```
 最终的显示如下：
 
 ![](http://i.imgur.com/N7Exn4B.png)
@@ -72,15 +73,15 @@ P(t,x,z) &= P'(t',x',z')
 可采用`minted`宏包，示例代码如下
 
 ```latex
-	\documentclass[a4paper]{scrartcl}
-	\usepackage{minted}
-	\begin{document}
-    	\begin{listing}[H]
-        	\caption{This is below the code.}
-        	\inputminted{py}{myfile.py}
-        	\label{lst:the-code}
-    	\end{listing}
-	\end{document}
+\documentclass[a4paper]{scrartcl}
+\usepackage{minted}
+\begin{document}
+	\begin{listing}[H]
+    \caption{This is below the code.}
+    \inputminted{py}{myfile.py}
+    \label{lst:the-code}
+   	\end{listing}
+\end{document}
 ```
 
 显示如下:<br>
@@ -104,11 +105,11 @@ P(t,x,z) &= P'(t',x',z')
 
 ## 8. 注意事项
 在表格中，`\label`语句应放在表格语句范围内靠后的位置，不然`\ref`的时候会找不到对应的`label`。一般的形式为：
-
-	\begin{table}
-	...
-	\caption{This is a table}
-	\label{tab:tab1}
-	\end{table}
-
+```latex
+\begin{table}
+...
+\caption{This is a table}
+\label{tab:tab1}
+\end{table}
+```
 此例中，如果将`\label`放置在`\caption`前面的话会出现上述问题。
