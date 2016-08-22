@@ -55,6 +55,7 @@ Latex 问题汇总
 \[1\]:《LaTeX入门》刘海洋，264页
 
 ## 5. 多行公式，比如两行，在两行的中间编号，只编一个。
+
 ```latex
 \begin{equation}
 \begin{split}
@@ -64,13 +65,13 @@ P(t,x,z) &= P'(t',x',z')
 \label{eq:1}
 \end{equation}
 ```
-![](http://i.imgur.com/NDQ4lu.png)
+
+![](http://i.imgur.com/xNFNjP6.png)
 
 ## 6. 代码如何添加标题和标签，以便于其它地方可以进行引用？
 可采用`minted`宏包，示例代码如下
 
-```
-
+```latex
 	\documentclass[a4paper]{scrartcl}
 	\usepackage{minted}
 	\begin{document}
@@ -80,11 +81,9 @@ P(t,x,z) &= P'(t',x',z')
         	\label{lst:the-code}
     	\end{listing}
 	\end{document}
-
-
 ```
 
-显示如下:
+显示如下:<br>
 ![](http://i.imgur.com/ad5eyYJ.png)
 参考资料：
 
