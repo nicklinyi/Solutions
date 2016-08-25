@@ -16,7 +16,7 @@ C/C++ 编程问题汇总
 化。
 
 一个简单的例子如下：
-  
+
          char str[100];
          char str2[20];
          int i;
@@ -28,5 +28,21 @@ C/C++ 编程问题汇总
            strcat(str,".txt);
            fp = fopen(str,"w+");
          }
+## 2. error: ‘exit’ was not declared in this scope
+
+刚开始用linux和G++写程序，碰到的错误可谓是五花八门，如下面的错误
+```console
+error: ‘exit’ was not declared in this scope
+```
+解决方法是
+
+添加
+```c
+#include <cstdlib>
+```
+参考：<br>
+[http://blog.csdn.net/longshengguoji/article/details/8260841](http://blog.csdn.net/longshengguoji/article/details/8260841)
+
+
 
 [<< 回到根目录]: ./README.md
