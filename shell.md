@@ -7,7 +7,7 @@ Linux 问题汇总
 
 应在脚本的第一行书写`#!/bin/bash`。<br>
 参考:<br>
-
+[http://askubuntu.com/questions/28311/problem-with-bash-script-declare-not-found](http://askubuntu.com/questions/28311/problem-with-bash-script-declare-not-found)
 
 
 
