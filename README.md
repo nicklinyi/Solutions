@@ -12,5 +12,6 @@ Solutions
 6.  [Markdown 相关问题](./markdown.md)
 7.  [VIM 相关问题](./vim.md)
 8.  [快捷键相关问题](./shortcut.md)
+9.  [Shell脚本问题](./shell.md)
 
 ====
