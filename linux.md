@@ -16,7 +16,7 @@ Linux 问题汇总
 
 现在介绍，如何在Linux下访问Windows的共享文件夹。
 首先，对于Debian/Ubuntu系统需要安装`cifs-utils`以及`smbclient`，命令如下
-	
+
 	sudo apt-get install cifs-utils
 	sudo apt-get install smbclient
 
@@ -25,15 +25,23 @@ Linux 问题汇总
 	mkdir ~/Desktop/Windows-Share
 
 然后挂载windows下的共享文件夹（假设该文件夹名为`paper`）到刚刚创建的文件夹`~/Desktop/Windows-Share`,命令如下：
-	
+
 	sudo mount.cifs //WindowsPC/Share /place/where/to/put/your/share/fold -o user=your-WindowsPC-name
-	
+
 注意：
 - `//WindowsPC/Share`中`WindowsPC`为IP地址，`Share`为WindowsPC共享的文件夹，在此例中为`paper`。
 - `/place/where/to/put/your/share/fold`是你在Linux上挂载`paper`的目录，即刚才创建的文件夹`~/Desktop/Windows-Share`，
 - `user=your-WindowsPC-name`为你的WindowsPC的用户名，如果你的用户名为`Durant`，那么这里就是`user=Durant`
-       
+
 输完这个代码后，可以在`~/Desktop/Windows-Share`下看到WindowsPC端的共享的`paper`目录中的文件。
 
+## 3. 图形界面下查看隐藏文件
+为什么要在图形界面下查看隐藏文件？有一种情况下是十分方便的。由于笔者很久
+没有设置环境变量，结果设置`PATH`路径的时候只添加了现在的，之前的所有的
+全部失效，要想重新改回来，只有在图形界面显示出隐藏文件才能解决此问题。
+
+在图形界面下，进入`${HOME}`目录，然后按快捷键`CTRL+H`则可显示出该目录下的所有隐藏文件(`.`＋`filename`)。<br>
+参考：<br>
+[http://www.cnblogs.com/0616--ataozhijia/p/3659688.html](http://www.cnblogs.com/0616--ataozhijia/p/3659688.html)
 
 [<< 回到根目录]: ./README.md
